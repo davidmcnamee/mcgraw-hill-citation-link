@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"]
+}

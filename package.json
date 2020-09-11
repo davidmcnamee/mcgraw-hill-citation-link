@@ -1,0 +1,26 @@
+{
+  "name": "mh-citation-link",
+  "version": "1.0.0",
+  "description": "Turns citations into links in McGraw-Hill smartbook pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --env.NODE_ENV=development --watch",
+    "build": "webpack --env.NODE_ENV=production && zip -r mh-citation-link.zip dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David McNamee",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.75",
+    "@types/react": "^16.7.8",
+    "@types/react-dom": "^16.0.11",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
