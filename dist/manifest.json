@@ -8,11 +8,11 @@
     "64": "icons/icon64.png"
   },
   "default_locale": "en",
-  "permissions": ["https://*/*"],
+  "permissions": ["https://*.mheducation.com/smartbook2/*"],
   "content_security_policy": "default-src 'self';",
   "content_scripts": [
     {
-      "matches": ["https://*/*"],
+      "matches": ["https://*.mheducation.com/smartbook2/*"],
       "js": ["js/content.js"],
       "all_frames": true
     }
